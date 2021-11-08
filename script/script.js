@@ -178,7 +178,7 @@ $(function () {
 
   $(".go-btn").on("click", () => {
     const $introScreen = $(".intro-modal");
-    $introScreen.removeClass("active"); //disable intro
+    $introScreen.addClass("disable"); //disable intro
     $previewContainer.removeClass("disable"); //show preview screen
     $audioIntro.play();
   });
