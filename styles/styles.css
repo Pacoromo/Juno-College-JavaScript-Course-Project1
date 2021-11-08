@@ -16,7 +16,7 @@ html { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: 
 
 @font-face {
   font-family: "star-wars";
-  src: url(./assets/fonts/SoloistStraight-Jqgx.otf);
+  src: url(../assets/fonts/SoloistStraight-Jqgx.otf);
 }
 
 a {
@@ -33,7 +33,7 @@ a {
 
 body {
   min-height: 100vh;
-  background: url(./assets/images/background.jpg) center/200%;
+  background: url(../assets/images/background.jpg) center/200%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -79,9 +79,6 @@ ul {
 /************ Intro ***************/
 /**********************************/
 
-.star-wars-intro {
-  background-image: url(./assets/images/stars-bg.jpg);
-}
 .intro-modal {
   position: fixed;
   width: 100%;
