@@ -231,8 +231,6 @@ $(function () {
 
   $(".next-btn").on("click", () => {
     questionCounter++;
-    //$audioCorrectAnswer.pause();
-    //$audioWrongAnswer.pause();
     $audioNextBtn.play();
     loadQuestion(questions[questionCounter]);
 
