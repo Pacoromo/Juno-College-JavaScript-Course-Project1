@@ -248,6 +248,7 @@ $(function () {
     $audioIntro.load(); //Restart intro audio
     $audioIntro.play();
     $(".option").removeClass("disableClick"); //enable click back in options
+    $(".next-btn").addClass("disable"); //remove next button if it was active
   });
 
   /***************************/
@@ -338,8 +339,8 @@ $(function () {
     timer = 0; // do not let timer get to zero again if game is over before counter or results will print twice
 
     //Stop sounds before showing results
-    $audioControlYourself.pause();
-    $audioAlarm.pause();
+    $audioControlYourself.load();
+    $audioAlarm.load();
     $audioBackground.load();
 
     $questionsContainer.addClass("disable"); //disable the questions screen
