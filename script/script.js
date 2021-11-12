@@ -355,7 +355,7 @@ $(function () {
     $(".correct-answers").text(score); //Print score
     $(".total-questions").text(questions.length); // total of questions
 
-    //calculate percentage of answers rigth
+    //calculate percentage of correct answers
     gradePercentage = (score * 100) / questions.length;
 
     //wording according to results
